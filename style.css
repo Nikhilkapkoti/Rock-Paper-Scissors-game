@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.choice {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff6b6b, #f7d94c);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.choice:hover {
+    background: linear-gradient(45deg, #f7d94c, #ff6b6b);
+    transform: translateY(-3px);
+}
+
+.result {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.score h3 {
+    margin: 5px 0;
+}
